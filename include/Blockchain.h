@@ -10,7 +10,7 @@ class Blockchain
 {
     public:
         Blockchain();
-        void addBlock(Block bNew):
+        void addBlock(Block bNew);
 
     private:
         uint32_t _nDifficulty;
